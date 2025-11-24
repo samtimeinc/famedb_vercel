@@ -1,0 +1,43 @@
+.blank-search__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+}
+
+.blank-search__row h1 {
+  font-size: 48px;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.blank-search__row p {
+  margin-bottom: 20px;
+}
+
+.search__img--wrapper {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.search__img {
+  width: 100%;
+}
+
+/** 
+
+Media Queries
+
+**/
+
+@media (max-width: 400px) {
+  .blank-search__row h1 {
+    font-size: 36px;
+  }
+
+  .search__img--wrapper {
+    max-width: 340px;
+  }
+}

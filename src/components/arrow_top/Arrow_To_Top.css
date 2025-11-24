@@ -1,0 +1,35 @@
+.back-to-top {
+  display: none;
+}
+
+.arrow-up {
+  display: none;
+}
+
+/** 
+
+Media Queries
+
+**/
+
+@media (max-width: 768px) {
+  .back-to-top {
+    position: fixed;
+    z-index: 100;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+    bottom: 120px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(233, 227, 227);
+  }
+
+  .arrow-up {
+    color: rgb(217, 200, 54);
+    display: block;
+  }
+}

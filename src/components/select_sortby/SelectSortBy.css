@@ -1,0 +1,13 @@
+select {
+  max-width: 250px;
+  width: 100%;
+  padding: 0 10px;
+  height: 40px;
+  background-color: black;
+  color: rgb(233, 227, 227);
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: blue;
+}

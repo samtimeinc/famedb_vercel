@@ -1,0 +1,35 @@
+.loading__row {
+  min-height: 100vh;
+  position: relative;
+}
+
+.spinner--wrapper {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+
+  border-radius: 50%;
+}
+
+.spinner {
+  animation: spin 3000ms infinite linear;
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+    color: rgb(227, 114, 227);
+  }
+  50% {
+    /* color: rgb(233, 227, 227); */
+    color: rgb(104, 211, 225);
+  }
+  100% {
+    color: rgb(227, 114, 227);
+    transform: rotate(360deg);
+  }
+}
